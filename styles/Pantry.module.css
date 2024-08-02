@@ -1,0 +1,109 @@
+/* styles/Pantry.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.homeLink {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+    .homeLink:hover {
+        background-color: #005bb5;
+    }
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    .searchBar input {
+        flex: 1;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+    }
+
+    .searchBar button {
+        padding: 8px 16px;
+        background-color: #ff4c4c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .searchBar button:hover {
+            background-color: #ff1a1a;
+        }
+
+.itemList {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .itemList li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+        .itemList li.crossed {
+            text-decoration: line-through;
+            color: #888;
+        }
+
+    .itemList button {
+        background: none;
+        border: none;
+        color: #ff4c4c;
+        cursor: pointer;
+    }
+
+        .itemList button:hover {
+            color: #ff1a1a;
+        }
+
+.addItem {
+    display: flex;
+    margin-top: 20px;
+}
+
+    .addItem input {
+        flex: 1;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+    }
+
+    .addItem button {
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .addItem button:hover {
+            background-color: #45a049;
+        }

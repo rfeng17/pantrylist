@@ -1,0 +1,52 @@
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.auth {
+    margin-bottom: 20px;
+}
+
+    .auth p {
+        margin-bottom: 10px;
+    }
+
+.authButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    .authButton:hover {
+        background-color: #005bb5;
+    }
+
+.link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+    .link:hover {
+        background-color: #ff1a1a;
+    }
